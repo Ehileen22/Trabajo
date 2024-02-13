@@ -1,0 +1,20 @@
+import javax.swing.JFrame;
+//Alumna: Rocha Garcia Ehileen
+//Fecha:13/02/2024
+//Descripcion: Primer trabajo en Java
+public class Main {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		JFrame ventana= new JFrame("Example");
+		ventana.setVisible(true);
+		ventana.setSize(500, 500);
+		//ventana.setLocation(500, 200);
+		ventana.setLocationRelativeTo(null);
+		ventana.setResizable(false);
+		ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		System.out.println("Holaa");
+	}
+
+}
